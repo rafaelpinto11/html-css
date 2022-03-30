@@ -1,0 +1,31 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: repeating-linear-gradient(-55deg, red, black);
+}
+h1{
+    font-family: cursive;
+    background-color: white;
+    color: black;
+
+}
+h2{
+    color: blue;
+    font-style: italic;
+
+}
+p{
+    text-align: justify;
+    color: aliceblue;
+}
+
+button{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    border-bottom-color: chartreuse;
+   
+}
+a{
+    color: blueviolet;
+}

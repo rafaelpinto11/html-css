@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+
+            background-color: darkcyan;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: darkblue;
+            padding: 3px;
+        }
+        nav > a{
+
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            margin-right: 3px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+
+            text-align: center;
+            background-color: black;
+            padding: 3px;
+            margin: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos"> 
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae molestiae accusantium laboriosam odit minima vero nam hic illo. Amet iusto accusantium eligendi ea incidunt quis laborum quidem quae ipsa corrupti. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero nesciunt laboriosam voluptatem quia placeat, autem consequatur hic ipsam adipisci fugit odit doloremque non facere in maiores nam ut, reiciendis vitae.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptas numquam eaque commodi placeat, cupiditate quasi. Porro illum, at voluptatibus eligendi inventore excepturi suscipit optio assumenda animi sed laboriosam. Aut?</p>
+                <aside>Artigo Escrito por Jose de Araújo.</aside>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, tempora odit consequuntur placeat corporis expedita tempore maxime nam sit autem nobis culpa provident voluptate eaque minima, numquam velit, et eos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur veniam nihil laboriosam praesentium excepturi laudantium obcaecati inventore recusandae! Velit dicta dolorem atque voluptate delectus laboriosam repellat distinctio quidem, culpa eveniet.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Rafael Pinto.</p>
+    </footer>
+</body>
+</html>

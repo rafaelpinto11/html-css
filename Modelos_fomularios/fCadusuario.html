@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro de Usuario 1.0</title>
+</head>
+<body>
+    <main>
+        <form action="" method="post" id="fCadUsuario" action="mailto:rafaelpinto11@gmail.com">
+            <fieldset id="usuario"><legend>IDENTIFICAÇÃO DO USUÁRIO</legend>
+                    <p><label for="cNome">NOME:</label> <input type="text" name="tNome" id="cNome" size="20" maxlength="50" placeholder="Nome Completo..."></p>
+                    <p><label for="cMail">E-MAIL:</label> <input type="email" name="tMail" id="cMail" size="30" maxlength="60" placeholder="Seu e-mail..."></p>
+                    <p><label for="cSenha">SENHA:</label> <input type="password" name="tSenha" id="cSenha" size="8" minlength="6" maxlength="10" placeholder="Cadastre uma senha"></p>
+                       <fieldset id="sexo">
+                           <legend>SEXO:</legend>
+                                <p><input type="radio" name="tSexo" id="cMasc" checked> <label for="cMasc">MASCULINO</label></p>
+                                <p><input type="radio" name="tSexo" id="cFem"> <label for="cFem">FEMININO</label></p>
+                       </fieldset>
+        
+                    <p><label for="cNasc">NASCIMENTO: <input type="date" name="tNasc" id="cNasc"></label></p>
+            </fieldset>
+            <fieldset id="endereco"><legend>ENDEREÇO DO USUÁRIO</legend>
+                    <p><label for="cLogradouro">LOGRADOURO:</label> <input type="text" name="tLogradouro" id="cLogradouro" size="20" max="80" placeholder="Av, Rua, Estrada, Travessa..."></p>
+                    <p><label for="cNum">NUMERO: <input type="number" name="tNum" id="cNum" min="1" max="999999" placeholder="Nº do endereço"></label></p>
+                    <p><label for="cEst">ESTADO:</label>
+                    <select name="tEst" id="cEst" >
+                        <optgroup label="Região Sudeste">
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="ES">Espírito Santo</option>
+                        </optgroup>
+                        <optgroup label="Região Nordeste">
+                            <option value="BA">Bahia</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="CE">Ceará</option>
+                        </optgroup>
+                    </select></p>
+                    <p><label for="cCidade">CIDADE: <input type="text" name="tCidade" id="cCidade" size="20" maxlength="40" placeholder="Sua cidade" list="lstCidade"></label></p>
+                    <datalist id="lstCidade">
+                        <option value="Rio de Janeiro"></option>
+                        <option value="Duque de Caxias"></option>
+                        <option value="Nova Iguaçú"></option>
+                        <option value="Itaguaí"></option>
+                        <option value="Niterói"></option>
+                    </datalist>
+            </fieldset>
+            <fieldset id="mensagem">
+                <legend>MENSAGEM DO USUÁRIO</legend>
+                    <p>GRAU DE URGÊNCIA:  Min<input type="range" name="tGrau" id="cGrau" step="2" min="0" max="10">Máx</p>
+                        <p><label for="cMsg">MENSAGEM:</label> <textarea name="tMsg" id="cMsg" cols="30" rows="3"></textarea></p>
+            </fieldset>
+            <fieldset id="pedido">
+                <legend>QUERO UM GOOGLE GLASS</legend>
+                    <label for="cCheck">
+                        <p>GOSTARIA DE ADQUIRIR UM GOOGLE GLASS QUANDO DISPONÍVEL. <input type="checkbox" name="tCheck" id="cCheck"></p>
+                    </label>
+                    <p><label for="cCor">COR:</label> <input type="color" name="tCor" id="cCor"></p>
+                    <p><label for="cQtde">QUANTIDADE: <input type="number" name="tQtde" id="cQtde" size="5" min="0" max="99999"></label></p>
+                    <p>VALOR TOTAL: R$ <input type="text" name="tValor" id="cValor" size="5" readonly placeholder="Total a pagar">,00</p>
+           </fieldset>
+            <p><input type="image" name="tEnviar" src="imagens/buttonpq.png" alt="Botão Salvar"></p>
+    </main>
+    </form>
+</body>
+</html>

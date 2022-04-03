@@ -1,0 +1,83 @@
+[favicon][titulo da Janela]
+
+[cabeçalho]
+	Igreja BAtista
+	Primeiro amor
+[cabeçalho]
+
+[nav]
+	inicio
+	multimidia
+	Departamentos (Louvor, Ação Social, Crianças e grupo Joven, Mulheres virtuosas)
+	Membros
+	Doação
+	Contate-nos
+[nav]
+[body]
+   [main]
+       
+	[IMGEM]
+       MISSÃO
+
+	   “Ser uma comunidade comprometida com Deus e os valores do evangelho, acolhedora em amor, buscando meios eficazes para transformação de vidas por meio da vivência e proclamação de Cristo”
+
+	[IMAGEM]
+
+       vISÃO
+    
+          " Nosso propósito é levar pessoas a um relacionamento intenso com Deus, amar e servir ao próximo, e fazer Jesus conhecido de todos os povos, no poder do Espírito Santo."
+	
+	  A visão da nossa igreja está pautada em sentimentos que Deus foi colocando ao longo do tempo no coração de sua liderança. Queremos ser uma igreja que cresce em direção a Deus, num compromisso sério com Ele, buscando conhecê-Lo na Sua intimidade, poder, Graça e em Sua força. E por isso todo ministério está pautado na Palavra de Deus, na exposição bíblica, numa visão de mobilização de todo povo de Deus, à intercessão e ao discipulado.
+
+	[IMAGEM]
+	
+	VALORES
+
+	  Valores são elementos inegociáveis do caráter do verdadeiro e frutífero discípulo de Jesus.
+	- serviços e caridades
+	- Adoração
+	- Comunhão
+	- Discipulado
+	- Evangelismo
+	
+	[IMAGEM]
+
+ 	IMPORTÂNCIA DA FAMÍLIA PRIMEIRO AMOR
+
+	- Na família
+	- Na Comunidade
+	- Na Educação
+	
+	[vIDEO]
+        
+	Hino da Congregaçao
+	
+	FORMOSO ÉS
+	Pastor Marcos Góes
+
+        Senhor, formoso És
+        Tua face eu quero ver
+        Pois quando estás neste lugar
+        Tua graça invade-me
+
+        Tua palavra ao mundo
+        Eu deixarei brilhar
+        Me ajude, oh, Deus
+        Viver só para Ti
+        Minha coroa eu deixo aos Teus pés
+        Pra me lembrar
+	Que a minha recompensa
+        É a Tua glória viva em mim
+
+        Acende a chama, oh, Pai
+        Que uma vez brilhou
+        Vem limpar, brilhar, resplandecer
+        O meu primeiro amor
+
+       LOCALIZAÇÃO, CONTATOS, REDES SOCIAIS
+
+   [MAIN]
+   [FOOTER]
+   	site Desenvolvido pelo Dev Rafeal Pinto.
+   [FOOTER]	
+[BODY] 
